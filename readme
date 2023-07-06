@@ -1,0 +1,23 @@
+Books APIs
+
+step 1 :
+
+run npm i command to install all the dependencies
+
+step 2 :
+
+use command npm start to start the server (make sure your mongoDB service is running before executing this command)
+
+step 3:
+
+Add books using http://localhost:3000/book/add \*
+
+step 4:
+
+to get books based on genre http://localhost:3000/book/getByGenre?genre= and use query param "genre" to specify the genre name \*
+
+step 5:
+
+to get the avarage rating of the book use http://localhost:3000/book/getAverageRating?title= and use query param "title" to specify the title of the book \*
+
+\*please refer to the postman collection added in the mail to better understand the requests and responses
